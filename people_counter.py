@@ -249,7 +249,7 @@ while True:
 
 		import csv
 
-		if round((time.time() - start_time), 0) % 10 == 0:
+		if round((time.time() - start_time), 0) % 5 == 0:
 			myFile = open('example.csv','a')
 			with myFile:
 				writer2 = csv.writer(myFile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
